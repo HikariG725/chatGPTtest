@@ -31,3 +31,25 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+/* breadcrumb style */
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.breadcrumb li+li:before {
+    content: '>';
+    margin-right: 0.5rem;
+}
+
+.breadcrumb a {
+    color: #333;
+    text-decoration: none;
+}
